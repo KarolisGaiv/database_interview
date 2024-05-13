@@ -15,7 +15,7 @@ SELECT DISTINCT year
     ORDER BY year DESC;
 
 
--- List number of times Eminem appeared in movies.
+-- 3. List number of times Eminem appeared in movies.
 SELECT COUNT(*) 
     FROM stars
     JOIN people ON people.id = stars.person_id
